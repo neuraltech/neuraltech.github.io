@@ -45,8 +45,6 @@ main {
   width: 1060px;
   margin: 0 auto;
   padding: 20px;
-  background-image: url("../img/bg-main.jpg");
-  background-position: right 50%;
 }
 
 .course-banner {
@@ -109,12 +107,9 @@ main {
   border-color: #4285F4;
 }
 
-.info-group--personal {
-  border-color: #00944C;
-}
-
-.info-group--service {
-  border-color: #EA4126;
+.main-index {
+  background-image: url("../img/bg-main-2.jpg");
+  background-size: cover;
 }
 
 .info-group h3 {
@@ -133,6 +128,7 @@ main {
   margin: 20px 0;
   padding: 0;
   list-style: none;
+  background-color: white;
 }
 
 .info-group li {
